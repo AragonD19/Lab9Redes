@@ -1,0 +1,76 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env/
+__pycache__/
+*.py[cod]
+
+# Archivos de configuración de Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Archivos de configuración de Python
+*.env
+*.venv
+*.egg-info/
+*.egg
+*.lock
+*.log
+
+# Archivos de configuración de editor (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de pip y dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+Pipfile
+Pipfile.lock
+poetry.lock
+__pypackages__/
+
+# Archivos de instalación y compilación
+build/
+dist/
+*.egg-info/
+eggs/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Archivos de test
+htmlcov/
+.tox/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+
+# Archivos de caché de Flask y Django
+instance/
+.venv/
+.pytest_cache/
+*.sqlite3
+db.sqlite3
+
+# Archivos de caché de mypy
+.mypy_cache/
+.dmypy.json
+
+# Archivos de configuración de cobertura
+.coverage
+coverage.xml
+*.cover
+
+# Otros archivos
+*.sqlite3
+*.pyo
+*.mo
+*.pot
+*.log
+logs/
