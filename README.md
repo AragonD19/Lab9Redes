@@ -42,14 +42,3 @@ Con el entorno virtual activado, ejecuta el siguiente comando para instalar las 
 ```bash
 pip install kafka-python matplotlib
 
-
-
-## Ejecuion de programas
-
-```bash
-python iot_producer.py
-
-python consumer_grafico.py
-
-python producer.py
-
