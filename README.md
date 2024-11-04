@@ -54,6 +54,7 @@ Pasos:
 Abre una terminal.
 Navega al directorio donde se encuentra iot_producer.py.
 Ejecuta el siguiente comando:
+
   `python iot_producer.py`
   
 El productor comenzará a enviar datos cada 15 a 30 segundos.
@@ -68,6 +69,7 @@ Pasos:
 Abre otra terminal.
 Navega al directorio donde se encuentra consumer_grafico.py.
 Ejecuta el siguiente comando:
+
   `python consumer_grafico.py`
 
 El consumidor comenzará a recibir y graficar los datos en tiempo real.
@@ -81,6 +83,7 @@ Pasos:
 Abre otra terminal (si deseas ejecutarlo en paralelo).
 Navega al directorio donde se encuentra producer.py.
 Ejecuta el siguiente comando:
+
   `python producer.py`
   
 Este productor funcionará de manera similar al anterior, enviando datos al broker.
