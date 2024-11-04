@@ -37,7 +37,7 @@ try:
         print(f"Datos enviados: {datos}")
         
         # Espera de 15 a 30 segundos antes de enviar otro dato
-        time.sleep(random.randint(15, 30))
+        time.sleep(random.randint(2, 5))
 except KeyboardInterrupt:
     print("Interrumpido manualmente")
 finally:
