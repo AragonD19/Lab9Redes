@@ -32,3 +32,24 @@ Este proyecto implementa un productor de Kafka y un consumidor que simula un nod
    venv\Scripts\activate
    # En macOS/Linux
    source venv/bin/activate
+
+   # Proyecto: Productor y Consumidor Kafka para Estación Meteorológica IoT
+
+## Instalación de Librerías
+
+Con el entorno virtual activado, ejecuta el siguiente comando para instalar las librerías requeridas:
+
+```bash
+pip install kafka-python matplotlib
+
+
+
+## Ejecuion de programas
+
+```bash
+python iot_producer.py
+
+python consumer_grafico.py
+
+python producer.py
+
