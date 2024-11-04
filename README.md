@@ -48,40 +48,43 @@ Ejecución de los Archivos
 1. Ejecutar el Productor
 Archivo: iot_producer.py
 Descripción: Este script genera datos de sensores y los envía a Kafka.
+
 Pasos:
 
 Abre una terminal.
 Navega al directorio donde se encuentra iot_producer.py.
 Ejecuta el siguiente comando:
-bash
-Copy code
-python iot_producer.py
+  `python iot_producer.py`
+  
 El productor comenzará a enviar datos cada 15 a 30 segundos.
 Para detener el productor, presiona Ctrl + C.
+
 2. Ejecutar el Consumidor y Graficador
 Archivo: consumer_grafico.py
 Descripción: Este script recibe los datos de Kafka y los grafica en tiempo real.
+
 Pasos:
 
 Abre otra terminal.
 Navega al directorio donde se encuentra consumer_grafico.py.
 Ejecuta el siguiente comando:
-bash
-Copy code
-python consumer_grafico.py
+  `python consumer_grafico.py`
+
 El consumidor comenzará a recibir y graficar los datos en tiempo real.
+
 3. Ejecutar el Productor Alternativo (si es necesario)
 Archivo: producer.py
 Descripción: Este script también actúa como productor de datos para Kafka.
+
 Pasos:
 
 Abre otra terminal (si deseas ejecutarlo en paralelo).
 Navega al directorio donde se encuentra producer.py.
 Ejecuta el siguiente comando:
-bash
-Copy code
-python producer.py
+  `python producer.py`
+  
 Este productor funcionará de manera similar al anterior, enviando datos al broker.
+
 Notas Adicionales
 Asegúrate de que el topic utilizado por los productores sea único para tu grupo para evitar conflictos.
 Puedes modificar y expandir los scripts según tus necesidades.
