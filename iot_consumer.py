@@ -7,7 +7,7 @@ import threading
 
 # Configuración del consumidor Kafka
 consumer = KafkaConsumer(
-    '21053',  # Asegúrate de que este sea el mismo tópico que usa el productor
+    '21053',  
     bootstrap_servers='164.92.76.15:9092',
     value_deserializer=lambda v: json.loads(v.decode('utf-8'))
 )
@@ -54,7 +54,7 @@ def actualizar_grafico(i):
 
     plt.subplot(3, 1, 3)
     # Mostrar las direcciones del viento como lista
-    plt.text(0.5, 0.5, ' ' + ',n '.join(direcciones_viento), 
+    plt.text(0.5, 0.5, ' ' + ', '.join(direcciones_viento), 
             fontsize=12, ha='center', va='center')
     plt.title("Direcciones del Viento")
     plt.axis('off')  # Ocultar los ejes

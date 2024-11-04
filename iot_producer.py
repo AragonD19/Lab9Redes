@@ -5,7 +5,7 @@ from kafka import KafkaProducer
 
 # Configuración del productor Kafka
 server = '164.92.76.15:9092'
-topic = '21053'  # Usa tu número de carné u otro identificador único para el topic
+topic = '21053'
 
 producer = KafkaProducer(
     bootstrap_servers=server,
@@ -16,10 +16,10 @@ producer = KafkaProducer(
 def generar_telemetria():
     # Generación de datos con una distribución gaussiana
     temperatura = round(random.gauss(55, 15), 2)
-    temperatura = max(0, min(110, temperatura))  # Asegurar el rango [0, 110]
+    temperatura = max(0, min(110, temperatura)) 
 
     humedad = int(random.gauss(50, 20))
-    humedad = max(0, min(100, humedad))  # Asegurar el rango [0, 100]
+    humedad = max(0, min(100, humedad))  
 
     direccion_viento = random.choice(["N", "NO", "O", "SO", "S", "SE", "E", "NE"])
 
